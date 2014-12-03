@@ -1,1 +1,65 @@
-/* No files to import found in partials/**\/* */
+/* line 3, ../sass/main.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 9, ../sass/main.scss */
+div {
+  display: block;
+}
+
+@-webkit-keyframes sheep {
+  0% {
+    right: -15%;
+  }
+  40% {
+    right: 42.5%;
+    -webkit-transform: rotate(0deg);
+  }
+  60% {
+    right: 42.5%;
+    -webkit-transform: rotate(-180deg);
+  }
+  100% {
+    right: 100%;
+  }
+}
+@-webkit-keyframes sheep-inner {
+  40% {
+    -webkit-transform: rotate(0deg);
+  }
+  60% {
+    -webkit-transform: rotate(180deg);
+  }
+}
+/* line 1, ../sass/partials/_canvas.scss */
+#canvas {
+  width: 1024px;
+  height: 500px;
+  background: #A0EDFF;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 1, ../sass/partials/_grass.scss */
+#grass {
+  height: 150px;
+  background: #A3E530;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* line 1, ../sass/partials/_sheep.scss */
+.sheep {
+  position: absolute;
+  left: 0;
+  bottom: 200px;
+  z-index: 500;
+  width: 200px;
+  height: 100px;
+  background: #FFF;
+}

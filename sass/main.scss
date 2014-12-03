@@ -1,2 +1,15 @@
 @import "_settings";
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+
+@import "animations/**/*"; 
 @import "partials/**/*";

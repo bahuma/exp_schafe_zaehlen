@@ -1,0 +1,21 @@
+@-webkit-keyframes sheep {
+    0% {
+        right: -15%;
+    }
+    40% { 
+        right: 42.5%;
+        -webkit-transform:rotate(0deg);
+    }
+    60% {
+        right: 42.5%;
+        -webkit-transform:rotate(-180deg);
+    }
+    100% {
+        right: 100%;
+    }
+}
+
+@-webkit-keyframes sheep-inner {
+    40% { -webkit-transform:rotate(0deg); }
+    60% { -webkit-transform:rotate(180deg); }
+}

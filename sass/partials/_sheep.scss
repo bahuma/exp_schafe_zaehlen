@@ -1,0 +1,13 @@
+.sheep {
+    $width: 200px;
+    $height: 100px;
+    $duration: 4s;
+    
+    position: absolute;
+    left: 0;
+    bottom: 200px;
+    z-index: 500;
+    width: $width;
+    height: $height;
+    background: #FFF;
+}
