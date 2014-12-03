@@ -1,4 +1,4 @@
-var path = "M-200,293.5h318c0,0,129.102-0.854,199.17-72.282c70.068-71.428,173.598,8.489,253.742,40.136S1002.13,294,1023.872,293.5";
+var path = "M-200,323.5h340.607c0,0,138.279-1.152,213.329-93.709c75.05-92.557,185.939,10.978,271.781,51.985c85.842,41.008,247.655,42.338,270.943,41.69";
 var pathAnimator = new PathAnimator( path ),	// initiate a new pathAnimator object
 objToAnimate = document.getElementById('sheep1'),	// The object that will move along the path
 speed = 3,	 		// seconds that will take going through the whole path
