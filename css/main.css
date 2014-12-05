@@ -57,9 +57,13 @@ div {
 .sheep {
   position: absolute;
   left: 0;
-  bottom: 200px;
   z-index: 500;
-  width: 200px;
-  height: 100px;
-  background: #FFF;
+  width: 199px;
+  height: 160px;
+}
+/* line 12, ../sass/partials/_sheep.scss */
+.sheep .sheep-inner {
+  background: url('/img/sheep.png?1417696054');
+  width: 199px;
+  height: 160px;
 }

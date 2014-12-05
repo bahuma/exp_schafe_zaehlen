@@ -1,13 +1,17 @@
 .sheep {
-    $width: 200px;
-    $height: 100px;
+    $width: 199px;
+    $height: 160px;
     $duration: 4s;
     
     position: absolute;
     left: 0;
-    bottom: 200px;
     z-index: 500;
     width: $width;
     height: $height;
-    background: #FFF;
+    
+    .sheep-inner {
+        background: image-url('sheep.png');
+        width: $width;
+        height: $height;
+    }
 }
