@@ -56,7 +56,7 @@ div {
 /* line 1, ../sass/partials/_sheep.scss */
 .sheep {
   position: absolute;
-  left: 0;
+  left: -500px;
   z-index: 500;
   width: 199px;
   height: 160px;
@@ -66,4 +66,8 @@ div {
   background: url('/img/sheep.png?1417696054');
   width: 199px;
   height: 160px;
+}
+/* line 17, ../sass/partials/_sheep.scss */
+.sheep .sheep-inner.santa {
+  background: url('/img/santa.png?1418035257');
 }

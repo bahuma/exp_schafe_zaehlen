@@ -4,7 +4,7 @@
     $duration: 4s;
     
     position: absolute;
-    left: 0;
+    left: -500px;
     z-index: 500;
     width: $width;
     height: $height;
@@ -13,5 +13,9 @@
         background: image-url('sheep.png');
         width: $width;
         height: $height;
+        
+        &.santa {
+            background: image-url('santa.png');    
+        }
     }
 }
